@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.seniorsteps.doctorist.models.Doctor;
-import com.seniorsteps.doctorist.repository.DoctorService;
+import com.seniorsteps.doctorist.service.DoctorService;
 
 @RestController
 @RequestMapping("/doctors")
